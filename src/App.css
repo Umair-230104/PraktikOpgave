@@ -1,0 +1,52 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.leaflet-container {
+  height: 500px;
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+.search-container {
+  margin-bottom: 15px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  margin-right: 5px;
+  width: 70%;
+  max-width: 400px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+}
+
+@media (max-width: 600px) {
+  .leaflet-container {
+    height: 400px;
+  }
+
+  .search-container input {
+    width: 60%;
+  }
+
+  .search-container button {
+    margin-top: 10px;
+  }
+}
