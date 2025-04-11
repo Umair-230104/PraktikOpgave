@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div className="page-container">
+        <div className="page-container">
         <CitySearch onSearch={setSelectedPosition} />{" "}
         <MapContainer center={[51.505, -0.09]} zoom={5} scrollWheelZoom={true}>
           <TileLayer
