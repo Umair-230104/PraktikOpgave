@@ -1,4 +1,5 @@
 Overordnet forklaret
+
 App.jsx indeholder holder kortet fra leaflet library og viser det på siden 
 
 App.jsx søger efter en lokation via CitySearch komponent som bruger et api til at søge et sted tager koordinaterne fra det sted man har søgt på og sender dem videre til App.jsx 
